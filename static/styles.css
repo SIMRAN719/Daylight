@@ -1,0 +1,48 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.quotebox {
+    background-color: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
+    color: black; /* Text color */
+    padding: 40px; /* Increased padding for larger box */
+    border-radius: 20px; /* Increased border radius */
+    text-align: center;
+    max-width: 500px; /* Set maximum width of the box */
+    margin: auto; /* Center the box horizontally */
+}
+
+h1 {
+    margin-bottom: 20px; /* Increased margin for the heading */
+    font-size: 24px; /* Increased font size for the heading */
+}
+
+p {
+    margin: 10px 0; /* Increased margin for the paragraphs */
+    font-size: 18px; /* Increased font size for the paragraphs */
+}
+
+button {
+    background-color: black; /* Button background color */
+    color: white; /* Button text color */
+    padding: 15px 30px; /* Increased padding for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px; /* Increased font size for the button */
+    margin-top: 20px; /* Increased margin for the button */
+}
+
+button:hover {
+    background-color: #333; /* Darker color on hover */
+}

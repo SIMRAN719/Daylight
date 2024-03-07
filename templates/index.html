@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+</head>
+<body style="background-image: url('{{ background }}');">
+    <div class = "quotebox">
+        <h1>Random Quote Generator</h1>
+        <p>Quote :{{quote}}</p>
+        <p>Author :{{author}}</p>
+        <button type="button" name="quoteButton" onclick="Another_quote()">Another Quote</button>
+    </div>
+    <script>
+        function Another_quote(){
+            window.location.reload();
+        }
+    </script>
+</body>
+</html>

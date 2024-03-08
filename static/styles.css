@@ -1,5 +1,6 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     margin: 0;
@@ -13,36 +14,36 @@ body {
 }
 
 .quotebox {
-    background-color: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
-    color: black; /* Text color */
-    padding: 40px; /* Increased padding for larger box */
-    border-radius: 20px; /* Increased border radius */
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: rgb(42, 42, 42); 
+    padding: 40px; 
+    border-radius: 20px;
     text-align: center;
-    max-width: 500px; /* Set maximum width of the box */
-    margin: auto; /* Center the box horizontally */
+    max-width: 500px; 
+    margin: auto; 
 }
 
 h1 {
-    margin-bottom: 20px; /* Increased margin for the heading */
-    font-size: 24px; /* Increased font size for the heading */
+    margin-bottom: 20px;
+    font-size: 24px;
 }
 
 p {
-    margin: 10px 0; /* Increased margin for the paragraphs */
-    font-size: 18px; /* Increased font size for the paragraphs */
+    margin: 10px 0; 
+    font-size: 18px; 
 }
 
 button {
-    background-color: black; /* Button background color */
-    color: white; /* Button text color */
-    padding: 15px 30px; /* Increased padding for the button */
+    background-color: black; 
+    color: white; 
+    padding: 15px 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 20px; /* Increased font size for the button */
-    margin-top: 20px; /* Increased margin for the button */
+    font-size: 20px; 
+    margin-top: 20px; 
 }
 
 button:hover {
-    background-color: #333; /* Darker color on hover */
+    background-color: #333;
 }

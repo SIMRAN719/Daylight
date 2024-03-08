@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DAYLIGHT</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <!--
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body style="background-image: url('{{ background }}');">
     <div class = "quotebox">
@@ -20,6 +25,9 @@
         function Another_quote(){
             window.location.reload();
         }
+        window.setInterval(function(){
+            Another_quote();
+        }, 7000);
     </script>
 </body>
 </html>

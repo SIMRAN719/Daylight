@@ -1,4 +1,4 @@
-# Random Quote Generator Project
+# DAYLIGHT
 
 <img src= "static/DAYLIGHT_GIF.gif" width="750" height="350"> 
 
